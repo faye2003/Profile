@@ -1,0 +1,39 @@
+body{
+	font-family:sans-serif;
+	position:relative;
+}
+
+.myheader{
+	background-image:url('img/1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	padding-bottom: 1rem;
+}
+
+#titre{
+	text-align:center;
+	font-size:30px;
+}
+#photo, img{
+	width:70%;
+	height:30%;
+	/* border-radius:200px; */
+	text-align:center;
+	margin-top:10%;
+}
+
+#salut{
+	font-size:25px;
+	font-family:arial;
+	margin-left:85px;
+	color: #ffffff;
+}
+
+.post {
+	margin-top: 1.5rem;
+	text-align: center;
+	color: #ffffff;
+	font-family: arial, sans-serif;
+}
