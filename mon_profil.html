@@ -4,8 +4,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Profil | Devps | FullStack</title>
+     <link rel="stylesheet" type="text/css" href="mon_profil.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <srcipt src="js/bootstrap.min.js"></srcipt>
 </head>
-<body>
-
+<body spy="scrollspy" data-toggle="navbar" target="mynavbar" data-offset="100">
+    <div class="container-fuild">
+        <!-- Mon Menu de Navigation bootstrap -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="hauteur">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">WebSite</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#" class="btn btn-link">a-propos</a></li>
+                            <li><a href="#" class="btn btn-link">compétences</a></li>
+                            <li><a href="#" class="btn btn-link">Certifications</a></li>
+                            <li><a href="#" class="btn btn-link">contacts</a></li>
+                            <li><a href="#" class="btn btn-link" disabled>portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>
