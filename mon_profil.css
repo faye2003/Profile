@@ -1,3 +1,8 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	font-family:arial, sans-serif;
 }
@@ -262,6 +267,32 @@ section#contact form#contactForm ::-ms-input-placeholder {
 }
 
 button.btn-primary{
-	background: #6c757d;
+	background: #eee;
+	outline: none;
+	cursor: pointer;
+	color: #777;
 }
 
+.myfooter{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem;
+	background: #212520;
+}
+
+.myfooter .left,
+.myfooter .right {
+	color: #eee
+}
+
+.myfooter .medium a {
+	text-decoration: none;
+	color: #eee;
+	padding: 1rem;
+}
+
+.myfooter .medium a:hover {
+	color: #f16059;
+}
