@@ -1,6 +1,5 @@
 body{
-	font-family:sans-serif;
-	position:relative;
+	font-family:arial, sans-serif;
 }
 
 .myheader{
@@ -16,7 +15,8 @@ body{
 	text-align:center;
 	font-size:30px;
 }
-#photo, img{
+
+.photo, img{
 	width:70%;
 	height:30%;
 	/* border-radius:200px; */
@@ -24,10 +24,27 @@ body{
 	margin-top:10%;
 }
 
+.myheader .container .row .col-sm-3{
+	margin-top:20%;
+}
+
+.myheader .container .row .col-sm-6 div.photo{
+	padding-left:100px;
+}
+
+.myheader .container .row .col-sm-6 .img-circle{
+	width:350px; 
+	height:350px;
+}
+
+.myheader .container .row .col-sm-3.jumbotron {
+	margin-top:15%;
+}
+
 #salut{
 	font-size:25px;
 	font-family:arial;
-	margin-left:85px;
+	text-align: center;
 	color: #ffffff;
 }
 
@@ -37,3 +54,126 @@ body{
 	color: #ffffff;
 	font-family: arial, sans-serif;
 }
+
+/*section de mes compétences*/
+.gris{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.gris1{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc1{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.tr1{
+	text-align:center;
+	padding-left:20px;
+}
+.gris2{
+	border:10px solid slategray;
+	width:50%;
+	display:inline-block;
+}
+.blanc2{
+	border:10px solid white;
+	width:50%;
+	display:inline-block;
+}
+.gris3{
+	border:10px solid slategray;
+	width:40%;
+	display:inline-block;
+}
+.blanc3{
+	border:10px solid white;
+	width:60%;
+	display:inline-block;
+}
+.gris4{
+	width:70%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc4{
+	width:30%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris5{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc5{
+	width:40%;
+	border:10px solid white;
+	display: inline-block;
+}
+.gris6{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc6{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris7{
+	width:30%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc7{
+	width:70%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris8{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc8{
+	width:40%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris9{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc9{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+
+.mesCompetences .container .row {
+	margin-top:40px;
+}
+
+.mesCompetences .container .row .col-sm-12 h1 {
+	text-align: center;
+	margin-bottom: 4rem;
+	color: #ffffff;
+}
+
+#ans{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: arial;
+}
+
