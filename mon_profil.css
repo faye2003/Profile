@@ -8,7 +8,7 @@ body{
 }
 
 .myheader{
-	background-image:url('img/1.jpg');
+	background-image:url('img/8.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -71,13 +71,13 @@ body{
 	font-size:35px;
 	font-family:arial;
 	text-align: center;
-	color: #f16059;
+	color: #ffffff;
 }
 
 .post {
 	margin-top: 1.5rem;
 	text-align: center;
-	color: #f16059;
+	color: #ffffff;
 	font-family: arial, sans-serif;
 	font-size:25px;
 }

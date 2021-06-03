@@ -9,14 +9,14 @@ $(function () {
 			// récupérer les information depuis mon formulaire
 			var name = $("input#name").val();
 			var email = $("input#email").val();
-			var numTel = $("input#phone")val();
+			var phone = $("input#phone")val();
 			var message = $("textarea#message").val();
 			var userName = name;
 			// autoriser la saisi des espaces dans le nom de l'utilisateur
 			if (userName.indexOf(" ") >= 0) {
 				userName = name.split(" ").slice(0, -1).join(" ");
 			}
-			$reqUser = $("#sendMessageButton");
+			$reqUser = $("#btnEnvoi");
 			$reqUser.prop("disabled", true); //Désactiver le button submit pour empêcher de dupliquer le message
 			$.ajax({
 				url: "mail/contact.php",
