@@ -7,14 +7,14 @@ body{
 	font-family:arial, sans-serif;
 }
 
-.myheader{
+/*.myheader{
 	background-image:url('img/8.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
 	padding-bottom: 1rem;
-}
+}*/
 
 #titre{
 	text-align:center;
@@ -33,7 +33,7 @@ body{
 	margin-top:20%;
 }
 
-.myheader div#moi .row .col-sm-3 div.well button.btn-responsive{
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive{
 	cursor: pointer;
 	outline: none;
 	padding: 1.5rem
@@ -43,8 +43,8 @@ body{
 	padding: 2rem;
 }
 
-.myheader div#moi .row .col-sm-3 div.well button.btn-responsive span.glyphicon,
-.myheader div#moi .row .col-sm-3 div.well button.btn-responsive span#cv{
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span.glyphicon,
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span#cv{
 	color: #f16059;
 	font-size: 17px;
 }
