@@ -33,6 +33,22 @@ body{
 	margin-top:20%;
 }
 
+.myheader div#moi .row .col-sm-3 div.well button.btn-responsive{
+	cursor: pointer;
+	outline: none;
+	padding: 1.5rem
+}
+
+.myheader div#moi .row .col-sm-3 div.well{
+	padding: 2rem;
+}
+
+.myheader div#moi .row .col-sm-3 div.well button.btn-responsive span.glyphicon,
+.myheader div#moi .row .col-sm-3 div.well button.btn-responsive span#cv{
+	color: #f16059;
+	font-size: 17px;
+}
+
 .myheader .container .row .col-sm-6 div.photo{
 	padding-left:100px;
 }
@@ -42,22 +58,28 @@ body{
 	height:350px;
 }
 
-.myheader .container .row .col-sm-3.jumbotron {
-	margin-top:15%;
+.myheader .container div.row div.col-sm-3 div.description {
+	background: #eee;
+	padding: 2rem;
+	border-radius: 3px;
+	margin-top:1rem;
+	color: #f16059;
+	font-family:arial;
 }
 
 #salut{
-	font-size:25px;
+	font-size:35px;
 	font-family:arial;
 	text-align: center;
-	color: #ffffff;
+	color: #f16059;
 }
 
 .post {
 	margin-top: 1.5rem;
 	text-align: center;
-	color: #ffffff;
+	color: #f16059;
 	font-family: arial, sans-serif;
+	font-size:25px;
 }
 
 /*section de mes compétences*/
@@ -167,7 +189,7 @@ body{
 }
 
 .mesCompetences .container .row {
-	margin-top:40px;
+	margin-top: 10rem;
 }
 
 .mesCompetences .container .row .col-sm-12 h1 {
@@ -182,9 +204,42 @@ body{
 	font-family: arial;
 }
 
-.mesFormations .container .row h1{
+.mesFormations .container h1{
 	color: #ffffff;
 	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.mesFormations .container .text-capitalize{
+	font-family:arial; 
+	font-size:20px;
+	color: #ffffff;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*.mesFormations .container div.text-capitalize h3 {
+	border-bottom: 1px solid #ffffff;
+}
+*/
+.mesFormations .container .table {
+	font-family:arial; 
+	font-size:15px;
+}
+
+section#forms div.container .table tr:nth-child(2),
+section#forms div.container .table tr:nth-child(4){
+	background-color:#eee;
+}
+
+section#forms div.container .table tr th{
+	font-family: arial, sans-serif;
+	font-size: 25px;
+}
+
+section#forms div.container .table tr td{
+	font-family: arial, sans-serif;
+	font-size: 17px;
 }
 
 /*Mes contacts*/
@@ -267,10 +322,16 @@ section#contact form#contactForm ::-ms-input-placeholder {
 }
 
 button.btn-primary{
+	font-family: "Montserrat", sans-serif;
 	background: #eee;
 	outline: none;
 	cursor: pointer;
 	color: #777;
+	padding: 1rem;
+}
+
+button.btn-primary:hover{
+	background: #f16059;
 }
 
 .myfooter{
@@ -280,6 +341,7 @@ button.btn-primary{
 	justify-content: space-between;
 	padding: 2rem;
 	background: #212520;
+	text-align: center;
 }
 
 .myfooter .left,
