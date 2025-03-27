@@ -8,6 +8,7 @@ body{
 	background-color: #ced4da;
 }
 
+
 /*.myheader{
 	background-image:url('img/8.jpg');
 	background-position:center;
@@ -23,11 +24,8 @@ body{
 }
 
 .photo, img{
-	width:70%;
-	height:30%;
-	/* border-radius:200px; */
+	margin: auto;
 	text-align:center;
-	margin-top:10%;
 }
 
 .myheader .container .row .col-sm-3{
