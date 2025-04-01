@@ -34,6 +34,7 @@
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/transitions";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
@@ -232,15 +233,15 @@ img.image{
 }
 .mesCompetences {
 	background-color: #212520;
-	margin: 0%;
-	padding: 0%;
+	margin: auto;
+	padding: 5%;
 }
 
 .mesCompetences .container .row {
 	margin-top: 10rem;
 }
 
-.mesCompetences .container .row .col-sm-12 h1 {
+.mesCompetences .container h1 {
 	text-align: center;
 	margin-bottom: 4rem;
 	color: #ffffff;
@@ -252,8 +253,15 @@ img.image{
 	font-family: arial;
 }
 
+.mesFormations {
+	margin: auto;
+	width: 100%;
+	height: 55rem;
+	padding-top: 12%;
+}
+
 .mesFormations .container h1{
-	color: #ffffff;
+	color: #212520;
 	text-align: center;
 	margin-bottom: 4rem;
 }
@@ -309,7 +317,6 @@ section#forms div.container .table tr td{
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
