@@ -18801,6 +18801,10 @@ body {
   background-color: #ced4da;
 }
 
+div.a-propos {
+  height: 50rem;
+}
+
 /*.myheader{
 	background-image:url('img/8.jpg');
 	background-position:center;
@@ -18843,9 +18847,10 @@ body {
   padding-left: 100px;
 }
 
-.myheader .container .row .col-sm-6 .img-circle {
-  width: 350px;
-  height: 350px;
+img.image {
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .myheader .container div.row div.col-sm-3 div.description {
@@ -19153,15 +19158,16 @@ section#contact form#contactForm ::-ms-input-placeholder {
 
 button.btn-primary {
   font-family: "Montserrat", sans-serif;
-  background: #eee;
+  background: #1cdaff;
   outline: none;
   cursor: pointer;
-  color: #777;
+  color: #fff;
   padding: 1rem;
 }
 
 button.btn-primary:hover {
-  background: #f16059;
+  background: #fff;
+  color: #1cdaff;
 }
 
 .myfooter {
@@ -19186,7 +19192,7 @@ button.btn-primary:hover {
 }
 
 .myfooter .medium a:hover {
-  color: #f16059;
+  color: #00fca8;
 }
 
 /*# sourceMappingURL=styles.css.map */
